@@ -1,0 +1,39 @@
+{
+  "name": "coffee",
+  "version": "1.0.0",
+  "description": "Coffee, that liquid black gold that most developers are completely hooked on and\\r without it would not be able to function properly. Coffea arabica, or Arabica\\r coffee, is known all around the world for it great taste. Lesser known is the\\r fact that Arabica coffee is not just one type of bean, but that it’s a species\\r that has many, many varieties.",
+  "main": "server.js",
+  "scripts": {
+    "test": "nyc mocha --reporter spec ./test/test --timeout 3000 --exit",
+    "start": "node  server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgifani/API-filter-query-sample"
+  },
+  "keywords": [
+    "Coffee",
+    "NodeJS",
+    "Express",
+    "API"
+  ],
+  "engines": {
+    "node": "10.13.0",
+    "npm": "6.4.1"
+  },
+  "author": "Danyal Gifany",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dgifani/API-filter-query-sample"
+  },
+  "homepage": "https://github.com/dgifani/API-filter-query-sample#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nyc": "^13.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "mocha": "^5.2.0"
+  }
+}
